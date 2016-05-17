@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import ua.kozak.dao.imp.RoleDAOImp;
+import ua.kozak.dao.RoleDAO;
 import ua.kozak.entity.Role;
 import ua.kozak.service.RoleService;
 
@@ -14,7 +14,7 @@ import ua.kozak.service.RoleService;
 public class RoleServiceImp implements RoleService{
 
 	@Autowired
-	private RoleDAOImp roleDAO;
+	private RoleDAO roleDAO;
 	
 	@Override
 	@Transactional

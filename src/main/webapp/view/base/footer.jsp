@@ -4,9 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Registration page</title>
+<title>Insert title here</title>
 </head>
 <body>
-<h1>Registration page</h1>
+	<div class="footer_div">
+	
+		<h1>Footer</h1>
+	
+	</div>
 </body>
 </html>

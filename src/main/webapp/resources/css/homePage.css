@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+h1,h2{
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+}
+
+.header_div{
+	min-height:100px;
+	background:#e1a86f; 
+}
+/* ----------------Body------------------ */
+.body_div{
+	min-height:400px;
+}
+.bodyLeft{
+	width:50%;
+	height:400px;
+	float:left;
+	background: #bed3de;
+}
+.bodyRight{
+	width:50%;
+	height:400px;
+	float:left;
+	background: #e1dfe1;
+}
+.footer_div{
+	min-height:100px;
+	background:#7eaabc; 
+}
+
+.error404{
+	position: absolute;
+	top: 10%;
+	left: 25%;
+}
+
+/* ----------------Body Products Page------------------ */
+
+.bodyProducts{
+	min-height:400px;
+	background: white;
+}
+
+/* ----------------Body Registration Page------------------ */
+.bodyRegistration{
+	min-height:400px;
+	background: white;
+}

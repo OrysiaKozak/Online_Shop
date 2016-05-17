@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import ua.kozak.dao.imp.ProductDAOImp;
+import ua.kozak.dao.ProductDAO;
 import ua.kozak.entity.Product;
 import ua.kozak.service.ProductService;
 
@@ -14,7 +14,7 @@ import ua.kozak.service.ProductService;
 public class ProductServiceImp implements ProductService{
 
 	@Autowired
-	private ProductDAOImp productDAO;
+	private ProductDAO productDAO;
 	
 	@Override
 	@Transactional
